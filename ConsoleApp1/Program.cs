@@ -43,7 +43,6 @@ static void Menu() {
     }
 
     Console.ReadKey();
-
 }
 static void soma() {
     Console.Clear();
@@ -117,7 +116,7 @@ static void porcentagem() {
     float n4 = n3 / 100;
 
     Console.WriteLine($"\n\n {n2}% de R${n1.ToString("F2", CultureInfo.InvariantCulture)} Reais é : R${n4.ToString("F2",CultureInfo.InvariantCulture)} Reais \n");
-    Console.Write("\nPressione qualquer tecla para retornar ao menu principal.");
+    Console.Write("\nPressione qualquer tecla para retornar ao menu principal.\n\n");
     Console.ReadKey();
     Menu();
 }
