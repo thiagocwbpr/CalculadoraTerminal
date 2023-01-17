@@ -34,7 +34,7 @@ static void Menu() {
             break;
         case 6:
             Console.Clear();
-            Console.WriteLine("\n\nObrigado por utilizar a calculadora de terminal! Até a próxima!");
+            Console.WriteLine("\n\nObrigado por utilizar a calculadora de terminal! Até a próxima!\n\n");
             break;
             System.Environment.Exit(0);
         default:
